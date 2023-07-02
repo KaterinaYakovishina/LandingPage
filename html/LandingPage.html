@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/LandingPage.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b84a304177.js" crossorigin="anonymous"></script>
+    <title>LandingPage</title>
+</head>
+<body>
+    <main>
+    <div class="bgrnd-frm">
+        <div class="container container-contact">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <fieldset>
+                    <div class="form-item">
+                        <label for="name">Full name</label>
+                        <input type="text" name="name" id="name" autocomplete="name">
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" autocomplete="email">
+                    </div>
+                    <div class="form-item">
+                        <label for="company">Company</label>
+                        <input type="text" name="company" id="company" autocomplete="organization">
+                    </div>
+                    <div class="form-item">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" autocomplete="tel">
+                    </div>
+                    <div class="form-item">
+                        <label for="product">Select Product Type</label>
+                        <select name="product" id="product">
+                            <option value="1">Product 1</option>
+                            <option value="2">Product 2</option>
+                            <option value="3">Product 3</option>
+                            <option value="4">Product 4</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div class="form-item check">
+                        <input type="checkbox" name="gotit" id="gotit">
+                        <label for="gotit">I understand everything I've just read</label>
+                    </div>
+                    <input type="submit" value="SUBMIT">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="bgrnd-pr">
+        <div class="container container-pr">
+            <header>
+                <h1>Welcome!</h1>
+                <h4>Some text</h4>
+                <p>This is our address</p>
+                <p>This is our phone</p>
+                <p class="send"><a href="mailto:someone@somewhere.com">someone@somewhere.com</a></p>
+
+            </header>
+            <section>
+                <h3>Our projects</h3>
+                <article>
+                    <p class="open"><a href="#">See here</a></p>
+                    <p>That's what we wrote about here. You're one click from reading more</p>
+                </article>
+
+                <article>
+                    <p class="open"><a href="#">Another link</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis, tenetur dolores iusto dignissimos deleniti perspiciatis! Molestiae enim, ex non unde aliquam vero, officia commodi in voluptatibus rerum ratione quia?</p>
+                </article>
+                <article>
+                    <p class="open"><a href="#">One more link</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis, tenetur dolores iusto dignissimos deleniti perspiciatis! Molestiae enim, ex non unde aliquam vero, officia commodi in voluptatibus rerum ratione quia?</p>
+                </article>
+
+            </section>
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+            
+                <div class="ftr-legal">
+                    <ul>
+                        <li>Company Name</li>
+                        <li>All right reserved</li>
+                        <li>Company Policy</li>
+                        
+                    </ul>
+                </div>        
+            
+                <div class="ftr-social">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            
+    </footer>
+
+
+</body>  
