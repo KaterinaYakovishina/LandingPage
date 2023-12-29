@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,28 +10,29 @@
     <script src="https://kit.fontawesome.com/b84a304177.js" crossorigin="anonymous"></script>
     <title>LandingPage</title>
 </head>
+
 <body>
     <main>
-    <div class="bgrnd-frm">
-        <div class="container container-contact">
+        <div class="contact">
             <h2>Contact Us</h2>
-            <form action="#">
+            <form action="#" method="post">
                 <fieldset>
                     <div class="form-item">
                         <label for="name">Full name</label>
-                        <input type="text" name="name" id="name" autocomplete="name">
+                        <input type="text" required name="name" id="name" autocomplete="off">
                     </div>
                     <div class="form-item">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" autocomplete="email">
+                        <input type="email" required name="email" id="email">
                     </div>
                     <div class="form-item">
                         <label for="company">Company</label>
-                        <input type="text" name="company" id="company" autocomplete="organization">
+                        <input type="text" required name="company" id="company" autocomplete="off">
                     </div>
                     <div class="form-item">
                         <label for="phone">Phone</label>
-                        <input type="tel" name="phone" id="phone" autocomplete="tel">
+                        <input type="tel" required name="phone" id="phone" autocomplete="tel"
+                            pattern="+38[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
                     </div>
                     <div class="form-item">
                         <label for="product">Select Product Type</label>
@@ -43,68 +45,96 @@
                     </div>
                     <div class="form-item">
                         <label for="message"> Message</label>
-                        <textarea name="message" id="message"></textarea>
-                    </div>
-                    <div class="form-item check">
-                        <input type="checkbox" name="gotit" id="gotit">
-                        <label for="gotit">I understand everything I've just read</label>
+                        <textarea name="text" id="message" minlength="15" maxlength="95" spellcheck="true"></textarea>
                     </div>
                     <input type="submit" value="SUBMIT">
                 </fieldset>
             </form>
         </div>
-    </div>
-    <div class="bgrnd-pr">
-        <div class="container container-pr">
+        <div class="blog">
             <header>
                 <hgroup>
                     <h1>Welcome!</h1>
                     <h4>Some text</h4>
                     <p>This is our address</p>
-                    <p>This is our phone</p>                <p class="send"><a href="mailto:someone@somewhere.com">someone@somewhere.com</a></p>
+                    <p>This is our phone</p>
+                    <p class="send"><a href="mailto:someone@somewhere.com">someone@somewhere.com</a></p>
                 </hgroup>
             </header>
+            <h3>Our Projects:</h3>
             <section>
-                <h3>Our projects</h3>
+
                 <article>
                     <p class="open"><a href="#">See here</a></p>
-                    <p>That's what we wrote about here. You're one click from reading more</p>
+                    <p>That's what we wrote about here. You're one click away from reading more</p>
                 </article>
 
                 <article>
                     <p class="open"><a href="#">Another link</a></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis, tenetur dolores iusto dignissimos deleniti perspiciatis! Molestiae enim, ex non unde aliquam vero, officia commodi in voluptatibus rerum ratione quia?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis, tenetur dolores iusto
+                        dignissimos deleniti perspiciatis! Molestiae enim, ex non unde aliquam vero, officia commodi in
+                        voluptatibus rerum ratione quia?</p>
                 </article>
                 <article>
                     <p class="open"><a href="#">One more link</a></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis, tenetur dolores iusto dignissimos deleniti perspiciatis! Molestiae enim, ex non unde aliquam vero, officia commodi in voluptatibus rerum ratione quia?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quis, tenetur dolores iusto
+                        dignissimos deleniti perspiciatis! Molestiae enim, ex non unde aliquam vero, officia commodi in
+                        voluptatibus rerum ratione quia?</p>
+                </article>
+                <article>
+                    <p class="open"><a href="#">And another one</a></p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nostrum eveniet,
+                        corporis laborum eius pariatur magnam itaque harum, ipsum esse a. Aperiam sequi quis rerum quasi
+                        minima harum optio ipsa! Sit, voluptatibus eum. Perspiciatis consequuntur officia culpa maxime
+                        sunt accusantium, modi eveniet. Id, molestiae similique consectetur autem voluptatum tempore,
+                        delectus animi ratione incidunt dignissimos suscipit? Adipisci possimus laudantium ducimus ex
+                        modi voluptatibus eveniet, quidem enim corporis veritatis suscipit officia vero non molestias,
+                        unde dolorum laborum sint quisquam, culpa neque laboriosam. Animi blanditiis alias natus earum.
+                        Saepe, quo excepturi. A odio reprehenderit dolores magni libero officia soluta natus labore
+                        assumenda iusto distinctio et, aut eum cum dicta animi consectetur voluptas itaque dolor.
+                        Veniam, fuga! Cupiditate, molestias dolorum ipsam laboriosam harum quia, cum quisquam reiciendis
+                        soluta voluptatibus autem consequuntur nemo. Sed itaque perferendis voluptates et nemo soluta
+                        assumenda molestias nihil officiis totam sapiente officia amet voluptatibus, exercitationem
+                        sequi unde reprehenderit est delectus debitis sint quam distinctio illum? Delectus ullam quaerat
+                        beatae, sit distinctio voluptas debitis deleniti error. Voluptate architecto quos, provident,
+                        repellendus dolores ea sit laudantium sunt numquam reiciendis, aliquam omnis voluptatibus hic.
+                        Pariatur, iusto, alias tempora dolores rerum cupiditate ex perspiciatis ad exercitationem
+                        repellat dolorem, accusamus eius. Deserunt reiciendis, tempora enim quos nobis, incidunt eum
+                        exercitationem laudantium atque amet, recusandae accusantium debitis! Eaque dignissimos
+                        asperiores adipisci unde impedit molestias neque? Laudantium aliquam alias hic excepturi esse,
+                        voluptates distinctio omnis dolore voluptate, ipsam exercitationem perspiciatis atque
+                        accusantium veniam placeat sit quis corporis magni minus fugiat, cum eum. Ex facere, obcaecati,
+                        nostrum similique blanditiis earum nobis vitae aperiam voluptatem asperiores tempora officiis
+                        numquam alias rem id, unde molestiae facilis eum dicta enim consequatur quisquam possimus iusto
+                        nam. Aperiam et laborum voluptate error numquam labore ad delectus quia sequi obcaecati neque
+                        repudiandae, sed aut voluptates nobis nisi at? Quam, omnis. Animi quos itaque amet.</p>
                 </article>
 
             </section>
+
         </div>
-    </div>
-    
+
     </main>
     <footer>
-            
-                <div class="ftr-legal">
-                    <ul>
-                        <li>Company Name</li>
-                        <li>All right reserved</li>
-                        <li>Company Policy</li>
-                        
-                    </ul>
-                </div>        
-            
-                <div class="ftr-social">
-                    <ul>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                    </ul>
-                </div>
-            
+
+        <div class="ftr-legal">
+            <ul>
+                <li>Company Name</li>
+                <li>All right reserved</li>
+                <li>Company Policy</li>
+
+            </ul>
+        </div>
+
+        <div class="ftr-social">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+
     </footer>
 
 
-</body>  
+</body>
